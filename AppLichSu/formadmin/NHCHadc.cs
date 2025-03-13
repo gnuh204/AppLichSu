@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace AppLichSu.formadmin
 {
-    public partial class NHCHad : Form
+    public partial class NHCHadc : Form
     {
-        public NHCHad()
+        public NHCHadc()
         {
             InitializeComponent();
         }
-
-        private void NHCHad_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        
     }
 }
