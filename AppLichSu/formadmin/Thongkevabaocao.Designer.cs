@@ -1,6 +1,6 @@
-﻿namespace AppLichSu
+﻿namespace AppLichSu.formadmin
 {
-    partial class Longin
+    partial class Thống_kê_và_báo_cáo
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
+            label1 = new Label();
             SuspendLayout();
             // 
-            // Longin
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(237, 127);
+            label1.Name = "label1";
+            label1.Size = new Size(60, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Biểu đồ";
+            // 
+            // Thống_kê_và_báo_cáo
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Name = "Longin";
-            Text = "Longin";
+            Controls.Add(label1);
+            Name = "Thống_kê_và_báo_cáo";
+            Text = "Thống_kê_và_báo_cáo";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label label1;
     }
 }

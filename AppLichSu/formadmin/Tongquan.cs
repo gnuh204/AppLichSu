@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AppLichSu
+namespace AppLichSu.formadmin
 {
-    public partial class Longin : Form
+    public partial class Tổng_quan : Form
     {
-        public Longin()
+        public Tổng_quan()
         {
             InitializeComponent();
         }
