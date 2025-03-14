@@ -40,9 +40,9 @@
             // 
             panel1.BackColor = Color.FromArgb(255, 192, 192);
             panel1.Controls.Add(button8);
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
-            panel1.Controls.Add(button1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
@@ -79,7 +79,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(12, 37);
+            button1.Location = new Point(12, 44);
             button1.Name = "button1";
             button1.Size = new Size(174, 29);
             button1.TabIndex = 0;
