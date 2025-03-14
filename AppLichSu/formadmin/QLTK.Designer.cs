@@ -28,6 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
+            SuspendLayout();
+            // 
+            // QLTK
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Name = "QLTK";
+            Text = "QLTK";
+=======
             panel1 = new Panel();
             button8 = new Button();
             button4 = new Button();
@@ -97,6 +108,7 @@
             Text = "QLTK";
             Load += QLTK_Load;
             panel1.ResumeLayout(false);
+>>>>>>> 08f89de51940a8d47f2b28b0fe68859108a98aa4
             ResumeLayout(false);
         }
 

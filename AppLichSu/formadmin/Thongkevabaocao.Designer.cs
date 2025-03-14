@@ -1,6 +1,10 @@
 ﻿namespace AppLichSu.formadmin
 {
+<<<<<<<< HEAD:AppLichSu/Login.Designer.cs
+    partial class Login
+========
     partial class Thống_kê_và_báo_cáo
+>>>>>>>> 08f89de51940a8d47f2b28b0fe68859108a98aa4:AppLichSu/formadmin/Thongkevabaocao.Designer.cs
     {
         /// <summary>
         /// Required designer variable.
