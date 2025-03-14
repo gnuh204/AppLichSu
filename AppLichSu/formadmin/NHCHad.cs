@@ -22,6 +22,19 @@ namespace AppLichSu.formadmin
 
         }
 
-        
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_caua_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_Noidung_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

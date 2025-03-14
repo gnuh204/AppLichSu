@@ -29,148 +29,164 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            label1 = new Label();
+            label7 = new Label();
+            textBox_Noidung = new TextBox();
+            textBox_caua = new TextBox();
+            btn_luu = new Button();
+            btn_taianh = new Button();
+            pictureBox_anh = new PictureBox();
+            groupBox1 = new GroupBox();
+            groupBox2 = new GroupBox();
             textBox1 = new TextBox();
-            label2 = new Label();
+            groupBox3 = new GroupBox();
             textBox2 = new TextBox();
+            groupBox4 = new GroupBox();
             textBox3 = new TextBox();
-            label3 = new Label();
-            textBox4 = new TextBox();
-            label4 = new Label();
-            textBox5 = new TextBox();
-            label5 = new Label();
-            comboBox1 = new ComboBox();
-            button1 = new Button();
-            comboBox2 = new ComboBox();
-            label6 = new Label();
+            groupBox5 = new GroupBox();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_anh).BeginInit();
+            groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
+            groupBox3.SuspendLayout();
+            groupBox4.SuspendLayout();
+            groupBox5.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(label7);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1334, 100);
+            panel1.Size = new Size(1334, 67);
             panel1.TabIndex = 0;
             // 
-            // label1
+            // label7
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(203, 116);
-            label1.Name = "label1";
-            label1.Size = new Size(99, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Nội dung câu hỏi";
+            label7.AutoSize = true;
+            label7.Location = new Point(545, 24);
+            label7.Name = "label7";
+            label7.Size = new Size(108, 15);
+            label7.TabIndex = 0;
+            label7.Text = "Ngân hàng câu hỏi";
+            // 
+            // textBox_Noidung
+            // 
+            textBox_Noidung.Location = new Point(85, 32);
+            textBox_Noidung.Multiline = true;
+            textBox_Noidung.Name = "textBox_Noidung";
+            textBox_Noidung.Size = new Size(730, 133);
+            textBox_Noidung.TabIndex = 2;
+            textBox_Noidung.TextChanged += textBox_Noidung_TextChanged;
+            // 
+            // textBox_caua
+            // 
+            textBox_caua.Location = new Point(31, 38);
+            textBox_caua.Multiline = true;
+            textBox_caua.Name = "textBox_caua";
+            textBox_caua.Size = new Size(276, 51);
+            textBox_caua.TabIndex = 4;
+            textBox_caua.TextChanged += textBox_caua_TextChanged;
+            // 
+            // btn_luu
+            // 
+            btn_luu.Location = new Point(1010, 692);
+            btn_luu.Name = "btn_luu";
+            btn_luu.Size = new Size(111, 42);
+            btn_luu.TabIndex = 12;
+            btn_luu.Text = "Lưu";
+            btn_luu.UseVisualStyleBackColor = true;
+            // 
+            // btn_taianh
+            // 
+            btn_taianh.Location = new Point(1010, 616);
+            btn_taianh.Name = "btn_taianh";
+            btn_taianh.Size = new Size(107, 43);
+            btn_taianh.TabIndex = 15;
+            btn_taianh.Text = "Tải ảnh";
+            btn_taianh.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox_anh
+            // 
+            pictureBox_anh.Location = new Point(843, 320);
+            pictureBox_anh.Name = "pictureBox_anh";
+            pictureBox_anh.Size = new Size(449, 277);
+            pictureBox_anh.TabIndex = 16;
+            pictureBox_anh.TabStop = false;
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(textBox_caua);
+            groupBox1.Location = new Point(100, 320);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(330, 123);
+            groupBox1.TabIndex = 17;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "groupBox1";
+            // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(textBox1);
+            groupBox2.Location = new Point(496, 320);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(330, 123);
+            groupBox2.TabIndex = 18;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "groupBox2";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(180, 150);
+            textBox1.Location = new Point(31, 38);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(732, 111);
-            textBox1.TabIndex = 2;
+            textBox1.Size = new Size(276, 51);
+            textBox1.TabIndex = 4;
             // 
-            // label2
+            // groupBox3
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(122, 336);
-            label2.Name = "label2";
-            label2.Size = new Size(38, 15);
-            label2.TabIndex = 3;
-            label2.Text = "label2";
+            groupBox3.Controls.Add(textBox2);
+            groupBox3.Location = new Point(100, 474);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(330, 123);
+            groupBox3.TabIndex = 19;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "groupBox3";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(122, 378);
+            textBox2.Location = new Point(31, 38);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(277, 45);
+            textBox2.Size = new Size(276, 51);
             textBox2.TabIndex = 4;
+            // 
+            // groupBox4
+            // 
+            groupBox4.Controls.Add(textBox3);
+            groupBox4.Location = new Point(496, 474);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(330, 123);
+            groupBox4.TabIndex = 20;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "groupBox4";
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(895, 378);
+            textBox3.Location = new Point(31, 38);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(277, 45);
-            textBox3.TabIndex = 6;
+            textBox3.Size = new Size(276, 51);
+            textBox3.TabIndex = 4;
             // 
-            // label3
+            // groupBox5
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(895, 336);
-            label3.Name = "label3";
-            label3.Size = new Size(38, 15);
-            label3.TabIndex = 5;
-            label3.Text = "label3";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(122, 559);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(277, 44);
-            textBox4.TabIndex = 8;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(122, 517);
-            label4.Name = "label4";
-            label4.Size = new Size(38, 15);
-            label4.TabIndex = 7;
-            label4.Text = "label4";
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(895, 559);
-            textBox5.Multiline = true;
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(277, 44);
-            textBox5.TabIndex = 10;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(895, 507);
-            label5.Name = "label5";
-            label5.Size = new Size(38, 15);
-            label5.TabIndex = 9;
-            label5.Text = "label5";
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(988, 182);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(130, 23);
-            comboBox1.TabIndex = 11;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(1047, 689);
-            button1.Name = "button1";
-            button1.Size = new Size(111, 42);
-            button1.TabIndex = 12;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(122, 677);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(130, 23);
-            comboBox2.TabIndex = 13;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(122, 650);
-            label6.Name = "label6";
-            label6.Size = new Size(38, 15);
-            label6.TabIndex = 14;
-            label6.Text = "label6";
+            groupBox5.Controls.Add(textBox_Noidung);
+            groupBox5.Location = new Point(100, 82);
+            groupBox5.Name = "groupBox5";
+            groupBox5.Size = new Size(903, 209);
+            groupBox5.TabIndex = 21;
+            groupBox5.TabStop = false;
+            groupBox5.Text = "groupBox5";
             // 
             // NHCHad
             // 
@@ -178,45 +194,51 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Tan;
             ClientSize = new Size(1334, 788);
-            Controls.Add(label6);
-            Controls.Add(comboBox2);
-            Controls.Add(button1);
-            Controls.Add(comboBox1);
-            Controls.Add(textBox5);
-            Controls.Add(label5);
-            Controls.Add(textBox4);
-            Controls.Add(label4);
-            Controls.Add(textBox3);
-            Controls.Add(label3);
-            Controls.Add(textBox2);
-            Controls.Add(label2);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
+            Controls.Add(groupBox5);
+            Controls.Add(groupBox4);
+            Controls.Add(groupBox3);
+            Controls.Add(groupBox2);
+            Controls.Add(groupBox1);
+            Controls.Add(pictureBox_anh);
+            Controls.Add(btn_taianh);
+            Controls.Add(btn_luu);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "NHCHad";
             Text = "NHCHad";
             Load += NHCHad_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_anh).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
+            groupBox4.ResumeLayout(false);
+            groupBox4.PerformLayout();
+            groupBox5.ResumeLayout(false);
+            groupBox5.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private Panel panel1;
-        private Label label1;
+        private TextBox textBox_Noidung;
+        private TextBox textBox_caua;
+        private Button btn_luu;
+        private Button btn_taianh;
+        private PictureBox pictureBox_anh;
+        private Label label7;
+        private GroupBox groupBox1;
+        private GroupBox groupBox2;
         private TextBox textBox1;
-        private Label label2;
+        private GroupBox groupBox3;
         private TextBox textBox2;
+        private GroupBox groupBox4;
         private TextBox textBox3;
-        private Label label3;
-        private TextBox textBox4;
-        private Label label4;
-        private TextBox textBox5;
-        private Label label5;
-        private ComboBox comboBox1;
-        private Button button1;
-        private ComboBox comboBox2;
-        private Label label6;
+        private GroupBox groupBox5;
     }
 }

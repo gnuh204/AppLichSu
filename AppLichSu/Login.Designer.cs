@@ -1,6 +1,6 @@
 ﻿namespace AppLichSu
 {
-    partial class Longin
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.

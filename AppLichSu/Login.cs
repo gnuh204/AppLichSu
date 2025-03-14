@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AppLichSu
 {
-    public partial class Longin : Form
+    public partial class Login : Form
     {
-        public Longin()
+        public Login()
         {
             InitializeComponent();
         }
